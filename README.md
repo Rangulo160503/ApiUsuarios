@@ -8,8 +8,10 @@ Periodo: III Cuatrimestre, 2025
 ## Integrantes del grupo
 | Nombre completo | Rol |
 |------------------------------|-----------------------------------------------|
-| Ronald Joel Angulo Hernández | Desarrollo de API, lógica de negocio y base de datos |
-| Argenis David Cerrato Amador | Desarrollo de API, desarrollo del controller |
+| **Ronald Joel Angulo Hernández** | Lógica de negocio y base de datos |
+| **Marvin Gustavo Marín Lazo** | Diseño de interfaz y vistas Razor |
+| **Sonia Sofía Umaña Piñar** | Controladores, validaciones y testing |
+| **Argenis David Cerrato Amador** | Modelado de entidades y reportes |
 
 ---
 
