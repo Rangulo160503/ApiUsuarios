@@ -1,0 +1,33 @@
+﻿@model List<ApiUsuarios.WEB.Models.UsuarioDto>
+
+<h2>Usuarios</h2>
+
+<a asp-action="Crear" class="btn btn-primary mb-2">Nuevo usuario</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Id</td>
+                <td>@u.Nombre</td>
+                <td>@u.Apellido</td>
+                <td>@u.Edad</td>
+                <td>
+                    <a asp-action="Detalle" asp-route-id="@u.Id">Ver</a> |
+                    <a asp-action="Editar" asp-route-id="@u.Id">Editar</a> |
+                    <a asp-action="Eliminar" asp-route-id="@u.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,32 @@
+﻿@model ApiUsuarios.WEB.Models.VehiculoDto
+@{
+    ViewData["Title"] = "Crear vehiculo";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="@(ViewContext.RouteData.Values["action"])">
+    <div class="mb-3">
+        <label class="form-label">Marca</label>
+        <input asp-for="Marca" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Modelo</label>
+        <input asp-for="Modelo" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Anno</label>
+        <input asp-for="Anno" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Precio</label>
+        <input asp-for="Precio" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Color</label>
+        <input asp-for="Color" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+</form>
