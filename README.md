@@ -9,6 +9,7 @@ Periodo: III Cuatrimestre, 2025
 | Nombre completo | Rol |
 |------------------------------|-----------------------------------------------|
 | Ronald Joel Angulo Hernández | Desarrollo de API, lógica de negocio y base de datos |
+| Argenis David Cerrato Amador | Desarrollo de API, desarrollo del controller |
 
 ---
 
