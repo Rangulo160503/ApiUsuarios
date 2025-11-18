@@ -9,7 +9,7 @@ Periodo: III Cuatrimestre, 2025
 | Nombre completo | Rol |
 |------------------------------|-----------------------------------------------|
 | **Ronald Joel Angulo Hernández** | Lógica de negocio y base de datos |
-| **Marvin Gustavo Marín Lazo** | Diseño de interfaz y vistas Razor |
+| **Marvin Gustavo Marín Lazo** | Diseño de interfaz y Vistas Razor. |
 | **Sonia Sofía Umaña Piñar** | Controladores, validaciones y testing |
 | **Argenis David Cerrato Amador** | Modelado de entidades y reportes |
 
